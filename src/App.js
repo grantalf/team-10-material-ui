@@ -1,24 +1,34 @@
 import logo from './logo.svg';
 import './App.css';
+import Grid from '@material-ui/core/Grid'
+import { Paper } from '@material-ui/core';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Grid container>
+        <Grid item xs={12} sm={6} md={3}>
+          <Paper>
+            Francene
+          </Paper>
+        </Grid>
+        <Grid item xs={12} sm={6} md={3}>
+          <Paper>
+            Marina
+          </Paper>
+        </Grid>
+        <Grid item xs={12} sm={6} md={3}>
+          <Paper>
+            Jorge
+          </Paper>
+        </Grid>
+        <Grid item xs={12} sm={6} md={3}>
+          <Paper>
+            Grant
+          </Paper>
+        </Grid>
+      </Grid>
+    </>
   );
 }
 
