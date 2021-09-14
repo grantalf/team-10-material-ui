@@ -2,7 +2,8 @@ const hobbies = [
     {
         name: 'Grant',
         interests: 'Skateboarding',
-        favoriteFood: 'Red Curry1'
+        favoriteFood: 'Red Curry1',
+
     },
     {
         name: 'Marina',

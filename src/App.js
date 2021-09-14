@@ -10,9 +10,9 @@ function App() {
   return (
     <>
       <Grid container>
-        {hobbies.map((hobby, i) => {
+        {hobbies.map((hobby, index) => {
           return (
-            <Grid item xs={12} sm={6} med={3}>
+            <Grid item key={index} xs={12} sm={6} med={3}>
               <InfoCard hobby={hobby}/>
             </Grid>
           )
