@@ -24,7 +24,7 @@ export default function InfoCard({ hobby }) {
         <CardActionArea>
             <CardMedia
                 className={classes.media}
-                image={grantPhoto}
+                image={hobby.image}
                 title="placeholder image"
             />
             <CardContent>

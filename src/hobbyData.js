@@ -1,24 +1,27 @@
 const hobbies = [
     {
         name: 'Grant',
-        interests: 'Skateboarding',
-        favoriteFood: 'Red Curry1',
-
+        interests: 'Surfing',
+        favoriteFood: 'Red Curry',
+        image: '../public/grant.jpg'
     },
     {
         name: 'Marina',
-        interests: 'Skateboarding',
-        favoriteFood: 'Red Curry2'
+        interests: 'Combat Sports',
+        favoriteFood: 'Spanakopita',
+        image: '../public/grant.jpg'
     },
     {
         name: 'Jorge',
-        interests: 'Skateboarding',
-        favoriteFood: 'Red Curry3'
+        interests: 'Dune Buggy Racing',
+        favoriteFood: 'Schnitzel',
+        image: '../public/grant.jpg'
     },
     {
         name: 'Francine',
-        interests: 'Skateboarding',
-        favoriteFood: 'Red Curry4'
+        interests: 'Skydiving',
+        favoriteFood: 'Gallo Pinto',
+        image: '../public/grant.jpg'
     }
 ];
 
