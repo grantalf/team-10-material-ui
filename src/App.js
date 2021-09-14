@@ -9,7 +9,7 @@ function App() {
       <Grid container>
         <Grid item xs={12} sm={6} md={3}>
           <Paper>
-            Francene
+            Francine
           </Paper>
         </Grid>
         <Grid item xs={12} sm={6} md={3}>
